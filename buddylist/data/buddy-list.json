@@ -1,0 +1,40 @@
+{
+    "users": [
+      {
+        "userId": "USR00001",
+        "name": "Andrew Grudde",
+        "profilePicture": "https://avatarfiles.alphacoders.com/216/thumb-1920-216286.png",
+        "statusMessage": "We become what we think about!",
+        "presence": 1
+      },
+      {
+        "userId": "USR00002",
+        "name": "Vaishnavi",
+        "profilePicture": "https://avatarfiles.alphacoders.com/216/thumb-1920-216286.png",
+        "statusMessage": "Live life and love life.",
+        "presence": 2
+      },
+      {
+        "userId": "USR00003",
+        "name": "Kathy Smiley",
+        "profilePicture": "https://avatarfiles.alphacoders.com/216/thumb-1920-216286.png",
+        "statusMessage": "One small positive thought can change your whole day",
+        "presence": 3
+      },
+      {
+        "userId": "USR00004",
+        "name": "Steve Dunk",
+        "profilePicture": "https://avatarfiles.alphacoders.com/216/thumb-1920-216286.png",
+        "statusMessage": "I am a rock star",
+        "presence": 1
+      },
+      {
+        "userId": "USR00005",
+        "name": "Maria Dropola",
+        "profilePicture": "https://avatarfiles.alphacoders.com/216/thumb-1920-216286.png",
+        "statusMessage": "I am using Gradious messenger",
+        "presence": 4
+      }
+    ]
+  }
+  

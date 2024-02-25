@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css.css" rel="stylesheet">
+    <script src="./js.js"></script>
+    <script src="https://kit.fontawesome.com/28ec243a89.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <div class="logo">
+            <p>Buddy List</p>
+        </div>
+        <div class="links">
+            <button id="ulogo"><i class="fa-solid fa-user-plus" ></i></button>
+        </div>
+    </nav>
+
+    <div id="main">
+
+
+<!-- 1stpart -->
+    <div id="userslist">
+        <div id="list"></div>
+    </div>
+
+
+
+<!-- 2nd part -->
+   <div id="chat">
+    <div id="chatheader">
+        <img src="./userimg.jpg" width="50px">
+    </div>
+    <div id="chatcontent">
+        <div class="intro">
+            Hi Abdul <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="reply">
+            <i class="fa-solid fa-ellipsis-vertical"></i> Hi Abdul
+        </div>
+        <div class="intro">
+            Hi Abdul <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="reply">
+            <i class="fa-solid fa-ellipsis-vertical"></i> Hi Abdul
+        </div>
+    </div>
+    <div class="footer">
+        <input type="text" placeholder="Enter the message here...." />
+        <div>
+            <i class="fa-solid fa-paperclip"> </i>
+            <i>&#10148;</i>
+        </div>
+    </div>
+</div>
+
+</div>
+    </div>
+    
+
+   <!-- 3rd part -->
+   <div id="newuser">
+    <div class="add-buddy-section" id="add-buddy-section">
+        <div class="addcontent">
+        <div class="subcontent">
+        <input type="text" id="newname" placeholder="Name">
+        <input type="text" id="newstatusmessage" placeholder="Status Message">
+        <input type="text" id="newprofilepicture" placeholder="Profile Picture Link">
+        <select id="new-presence-status">
+            <!-- <option>available</option> -->
+            <option value="1">Online</option>
+            <option value="2">Busy</option>
+            <option value="3">Idle</option>
+            <option value="4">Offline</option>
+        </select>
+        <button onclick="addBuddy()" id="add">Add User</button>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
